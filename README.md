@@ -5,7 +5,7 @@
 Este repositorio contiene las escenas, scripts y documentación del plan de pruebas para nuevas funciones del motor Godot, incluyendo:
 
 - Sistema de Física Jolt
-- Ubershaders y optimización en Metal (macOS)
+- Ubershaders
 - Edición en tiempo real
 - Exportación Android
 
