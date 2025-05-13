@@ -3,7 +3,7 @@
 [sub_resource type="BoxMesh" id="BoxMesh_2lsc5"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6lpch"]
-albedo_color = Color(0.787053, 0.368011, 0.595519, 1)
+albedo_color = Color(0.105761, 0.537994, 0.952778, 1)
 
 [node name="PruebaEmbed" type="Node3D"]
 
@@ -12,5 +12,5 @@ mesh = SubResource("BoxMesh_2lsc5")
 surface_material_override/0 = SubResource("StandardMaterial3D_6lpch")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.588985, -0.276402, 0.759407, -1.77636e-15, 0.939693, 0.34202, -0.808144, -0.201445, 0.553465, 4.47395, 0.855957, 3.01951)
+transform = Transform3D(0.588985, -0.276402, 0.759407, -1.77636e-15, 0.939692, 0.342021, -0.808144, -0.201445, 0.553465, 4.47395, 0.855957, 6.19938)
 current = true
