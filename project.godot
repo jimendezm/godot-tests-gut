@@ -11,6 +11,8 @@ config_version=5
 [application]
 
 config/name="Nuevo Proyecto de Juego"
+run/main_scene="uid://cu4swfarpveg1"
+run/enable_alt_space_menu=true
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -21,3 +23,7 @@ version_control/plugin_name="Gut"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/gut/plugin.cfg")
+
+[run]
+
+run_on_separate_thread=true

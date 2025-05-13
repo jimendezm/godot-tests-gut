@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8xoeyod8kf78"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_2lsc5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6lpch"]
+albedo_color = Color(0.787053, 0.368011, 0.595519, 1)
+
+[node name="PruebaEmbed" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_2lsc5")
+surface_material_override/0 = SubResource("StandardMaterial3D_6lpch")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.588985, -0.276402, 0.759407, -1.77636e-15, 0.939693, 0.34202, -0.808144, -0.201445, 0.553465, 4.47395, 0.855957, 3.01951)
+current = true
