@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://vnik2n4s2d4b"]
+
+[ext_resource type="Script" uid="uid://d1le5l1tmu0c8" path="res://tests/test_cp_jolt_01.gd" id="1_sufor"]
+
+[node name="CP_JOLT_01" type="Node3D"]
+script = ExtResource("1_sufor")
