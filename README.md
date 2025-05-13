@@ -4,10 +4,24 @@
 
 Este repositorio contiene las escenas, scripts y documentación del plan de pruebas para nuevas funciones del motor Godot, incluyendo:
 
-- Sistema de Física Jolt
-- Ubershaders y optimización en Metal (macOS)
-- Edición en tiempo real
-- Exportación Android
+Pruebas funcionales
+
+CP-JOLT-01: Simulación de gravedad con múltiples objetos
+
+CP-JOLT-02: Colisiones complejas
+
+CP-JOLT-03: Rendimiento comparativo
+
+CP-EMBED-01: Sincronización en tiempo real
+
+CP-LIVEEDIT-01: Modificación de propiedades
+
+
+Pruebas no funcionales
+
+CP-PERF-01: Tiempo de compilación de shaders
+
+CP-ANDROID-01: Exportación básica
 
 ## Organización
 
