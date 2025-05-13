@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://caut8d4c6255n"]
+
+[ext_resource type="Script" uid="uid://dvsg0yc58epnh" path="res://scripts/create_high_scene.gd" id="1_aviyn"]
+
+[node name="SceneHigh" type="Node3D"]
+script = ExtResource("1_aviyn")

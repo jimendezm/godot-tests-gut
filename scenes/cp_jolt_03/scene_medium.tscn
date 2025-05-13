@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2lhmofyr0mpv"]
+
+[ext_resource type="Script" uid="uid://dmi32xrocfbnt" path="res://scripts/create_medium_scene.gd" id="1_5214v"]
+
+[node name="SceneMedium" type="Node3D"]
+script = ExtResource("1_5214v")
